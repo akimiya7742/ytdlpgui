@@ -1,0 +1,12 @@
+{
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [
+    "static/mt4z_S86_ioseCde-l-Iv/_ssgManifest.js",
+    "static/mt4z_S86_ioseCde-l-Iv/_buildManifest.js"
+  ],
+  "rootMainFiles": []
+}

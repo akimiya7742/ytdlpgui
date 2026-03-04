@@ -1,0 +1,43 @@
+{
+  "name": "yt-downloader-electron",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "main": "main/main.js",
+  "build": {
+    "appId": "io.akimiya.ytdownloader",
+    "files": [
+      "out/**/*",
+      "main/**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    }
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.10.1",
+    "@tauri-apps/plugin-dialog": "^2.6.0",
+    "@tauri-apps/plugin-shell": "^2.3.5",
+    "electron-serve": "^3.0.1",
+    "lucide-react": "^0.563.0",
+    "next": "16.1.6",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@tauri-apps/cli": "^2.10.0",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
