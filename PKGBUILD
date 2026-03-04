@@ -17,8 +17,6 @@ depends=(
 makedepends=(
   'git'
   'cargo'
-  'nodejs'
-  'npm'
 )
 provides=('youtube-downloader')
 conflicts=('youtube-downloader')
